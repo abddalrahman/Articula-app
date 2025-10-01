@@ -1,0 +1,179 @@
+/* bootstrap costum */
+.accordion-button::after{
+	display: none;
+}
+.accordion-item h2 button{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.accordion-item h2 button:focus{
+	box-shadow: none;
+	border: none;
+}
+.accordion-button:not(.collapsed){
+	background-color: transparent;
+}
+.accordion-item:first-of-type .accordion-button{
+	border-radius: 0px !important;
+	-webkit-border-radius: 0px !important;
+	-moz-border-radius: 0px !important;
+	-ms-border-radius: 0px !important;
+	-o-border-radius: 0px !important;
+}
+
+.faq-content{
+	@media screen and (max-width:576px) {
+		margin-inline: 0px;
+	}
+}
+
+/* filtering */
+.faqs-content{
+	background-color: var(--background-color);
+}
+.q-filtering{
+	overflow: hidden;
+}
+.q-filtering ul{
+	border: 1px solid var(--border-color);
+	
+	li{
+		font-size: var(--f-sm);
+		cursor: pointer;
+		transition: var(--main-transition);
+		-webkit-transition: var(--main-transition);
+		-moz-transition: var(--main-transition);
+		-ms-transition: var(--main-transition);
+		-o-transition: var(--main-transition);
+		color: var(--sec-btn-color);
+		text-wrap: nowrap;
+	}
+	li:not(:first-of-type){
+		border-top: 1px solid var(--border-color);
+	}
+	li:hover,
+	li.active-filter{
+		color: var(--static-main-color);
+		background-color: var(--static-main-btn-color);
+	}
+}
+
+@media screen and (max-width:768px) {
+	.q-filtering{
+		overflow: auto;
+	}
+	.q-filtering ul{
+		overflow: auto;
+	}
+	.q-filtering ul li{
+		border-top: none !important;
+	}
+}
+
+/* Accordion */
+.accordion-item{
+	border: 1px solid var(--border-color) !important;
+	background-color: var(--background-color);
+	color: var(--dark-gray-color);
+	
+	h2 button{
+		font-size: var(--f-main);
+		color: var(--sec-btn-color);
+		font-weight: 500;
+		border-radius: 0px;
+		-webkit-border-radius: 0px;
+		-moz-border-radius: 0px;
+		-ms-border-radius: 0px;
+		-o-border-radius: 0px;
+		
+		svg {
+			width: 40px;
+		}
+		
+		svg path{
+			stroke: var(--sec-btn-color);
+			transition: all 0.4s;
+			-webkit-transition: all 0.4s;
+			-moz-transition: all 0.4s;
+			-ms-transition: all 0.4s;
+			-o-transition: all 0.4s;
+		}
+	}
+	
+	.accordion-body{
+		font-size: var(--f-sm);
+		color: var(--dark-gray-color);
+		box-shadow: 0px 12px 32px 0px #1d202600 ;
+		transition: var(--main-transition);
+		-webkit-transition: var(--main-transition);
+		-moz-transition: var(--main-transition);
+		-ms-transition: var(--main-transition);
+		-o-transition: var(--main-transition);
+	}
+	
+	.accordion-collapse.collapse.show .accordion-body{
+		box-shadow: 0px 12px 32px 0px #1D20261A;
+	}
+	
+	.accordion-button.collapsed{
+		background-color: var(--background-color);
+	}
+	.accordion-button:not(.collapsed){
+		background-color: var(--sec-btn-color);
+		color: var(--main-color);
+		
+		svg path{
+			stroke: var(--main-color);
+			transform-origin: center;
+			transform: rotate( 180deg);
+			-webkit-transform: rotate( 180deg);
+			-moz-transform: rotate( 180deg);
+			-ms-transform: rotate( 180deg);
+			-o-transform: rotate( 180deg);
+		}
+	}
+}
+html.dark-mode .accordion-item .accordion-body{
+	color: var(--light-gray-color);
+}
+html.dark-mode .accordion-item .accordion-body h1,
+html.dark-mode .accordion-item .accordion-body h2,
+html.dark-mode .accordion-item .accordion-body h3{
+	color: var(--static-main-color);
+}
+
+/* send ques */
+.send-qus-content{
+	background-color: var(--sec-background-color);
+
+	> div:first-of-type{
+
+		h3{
+			font-size: var(--f-md);
+			color: var(--sec-btn-color);
+			font-weight: 500;
+			margin-bottom: 0px;
+		}
+		
+		p{
+			padding-block: 8px 16px !important;
+			font-size: var(--f-vsm);
+			color: var(--gray-color);
+		}
+	}
+
+	form{
+
+		input,
+		textarea{
+			border: 0px;
+			font-size: var(--f-sm);
+			outline: none;
+		}
+
+		button{
+			padding-block: 8px !important;
+		}
+	}
+}

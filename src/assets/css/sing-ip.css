@@ -1,0 +1,178 @@
+.sign-up-content > div:last-child,
+.sign-up-content > div:first-child,
+.sign-in-content > div:last-child,
+.sign-in-content > div:first-child{
+	flex: 1;
+	min-width: 340px;
+}
+.sign-up-content > div:last-child,
+.sign-in-content > div:last-child{
+	margin-inline: 5%;
+
+	@media screen  and (max-width: 1200px){
+		margin-inline: 2%;
+	}
+
+	@media screen  and (max-width: 576px){
+		margin-inline: 0%;
+	}
+}
+.sign-up-content > div:first-child > img,
+.sign-in-content > div:first-child > img{
+	object-fit: cover;
+	height: 100%;
+	width: 100%;
+}
+.sign-up-content .main-head,
+.sign-in-content .main-head{
+	color: var(--static-sec-btn-color);
+	padding-block: 30px 10px;
+}
+
+.sign-up-content form label,
+.sign-in-content form label{
+	color: var(--static-sec-btn-color);
+}
+.sign-up-content form input[type='text'],
+.sign-in-content form input[type='text'],
+.sign-up-content form input[type='password'],
+.sign-in-content form input[type='password']{
+	border-color: var(--static-border-color);
+}
+.agree-terms,
+.remeber-me{
+	input[type=checkbox]{
+		appearance: none;
+		width: 20px;
+		height: 20px;
+		border: 1px solid var(--light-gray-color);
+		cursor: pointer;
+	}
+	input[type=checkbox].check_true{
+		background-color: var(--light-gray-color);
+		position: relative;
+	}
+	input[type=checkbox].check_true::before{
+		content: '✔';
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		color: var(--static-main-color);
+		transform: translate(-50%, -50%);
+		-webkit-transform: translate(-50%, -50%);
+		-moz-transform: translate(-50%, -50%);
+		-ms-transform: translate(-50%, -50%);
+		-o-transform: translate(-50%, -50%);
+	}
+
+	label{
+		cursor: pointer;
+		font-size: var(--f-sm);
+		color: var(--static-gray-color);
+
+		a{
+			color: var(--blue-color);
+			opacity: 0.8;
+		}
+		a:hover{
+			opacity: 1;
+		}
+	}
+
+	.main-btn{
+		padding-block: 10px;
+	}
+}
+.gender-is > label{
+	font-size: var(--f-main);
+	color: var(--static-gray-color);
+}
+.gender-is > div > label{
+	cursor: pointer;
+	color: var(--light-gray-color);
+	transition: color 0.2s;
+	-webkit-transition: color 0.2s;
+	-moz-transition: color 0.2s;
+	-ms-transition: color 0.2s;
+	-o-transition: color 0.2s;
+}
+.gender-is input[type=radio]{
+	appearance: none;
+	width: 16px;
+	height: 16px;
+	cursor: pointer;
+	border: 1px solid var(--static-main-btn-color);
+	transition: var(--main-transition);
+	-webkit-transition: var(--main-transition);
+	-moz-transition: var(--main-transition);
+	-ms-transition: var(--main-transition);
+	-o-transition: var(--main-transition);
+}
+.gender-is input[type=radio]:checked{
+	background-color: var(--static-main-btn-color);
+}
+.gender-is input[type=radio]:checked + label{
+	color: var(--static-gray-color);
+}
+
+.sign-with-account {
+
+	> span{
+		position: relative;
+		display: flex;
+		width: 100%;
+		height: 1px;
+		background-color: var(--v-light-gray-color);
+
+		h4{
+			position: absolute;
+			left: 50%;
+			top: 50%;
+			width: fit-content;
+			height: fit-content;
+			padding-inline: 8px;
+			font-size: var(--f-sm);
+			color: var(--static-gray-color);
+			text-transform: uppercase;
+			background-color: var(--static-background-color);
+			transform: translate(-50%, -50%);
+			-webkit-transform: translate(-50%, -50%);
+			-moz-transform: translate(-50%, -50%);
+			-ms-transform: translate(-50%, -50%);
+			-o-transform: translate(-50%, -50%);
+		}
+	}
+
+	> div > a{
+		border: 1px solid var(--v-light-gray-color);
+		flex: 1;
+		font-size: var(--f-main);
+		transition: var(--main-transition);
+		-webkit-transition: var(--main-transition);
+		-moz-transition: var(--main-transition);
+		-ms-transition: var(--main-transition);
+		-o-transition: var(--main-transition);
+		
+		span:first-of-type{
+			height: 50px;
+			width: 50px;
+			border-inline-end: 1px solid var(--v-light-gray-color);
+			transition: var(--main-transition);
+			-webkit-transition: var(--main-transition);
+			-moz-transition: var(--main-transition);
+			-ms-transition: var(--main-transition);
+			-o-transition: var(--main-transition);
+		}
+		span:last-of-type{
+			flex: auto;
+		}
+	}
+	> div > a:hover{
+		border-color: var(--blue-color);
+		
+		span:first-of-type{
+			border-inline-end-color: var(--blue-color);
+		}
+	}
+	
+}

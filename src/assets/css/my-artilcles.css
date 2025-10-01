@@ -1,0 +1,102 @@
+.my-articles{
+	background-color: var(--sec-background-color);
+}
+.my-articles i.req-note{
+	color: var(--static-main-btn-color);
+	font-weight: bold;
+}
+.my-articles form{
+  background-color: var(--background-color);
+  box-shadow: 0px 0px 16px 1px rgba(0, 0, 0, 0.1);
+}
+.my-articles h2{
+  font-size: var(--f-xl);
+  color: var(--sec-btn-color);
+  font-weight: 600;
+}
+.my-articles form h3{
+  font-size: var(--f-lg);
+  color: var(--sec-btn-color);
+  font-weight: 500;
+}
+.my-articles form textarea{
+	height: 200px;
+}
+.final-processing{
+	width: fit-content;
+	height: fit-content;
+	max-width: 90%;
+	padding: 10px;
+	background-color: var(--static-main-btn-color);
+	color: var(--static-main-color);
+	box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+	position: fixed;
+	top: 50%;
+	z-index: 100;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	-o-transform: translate(-50%, -50%);
+}
+.final-processing h3{
+	font-size: var(--f-lg);
+}
+.final-processing ul{
+	font-size: var(--f-sm);
+	list-style: disc ;
+}
+.final-processing div > span{
+	width: 100%;
+	display: flex;
+	height: 10px;
+	border: 1px solid var(--static-main-color);
+	overflow: hidden;
+	border-radius: 2px;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	-ms-border-radius: 2px;
+	-o-border-radius: 2px;
+}
+.final-processing div > span > span{
+	background-color: var(--static-main-color);
+	height: 100%;
+	display: inline-block;
+	transition: width 0.3s;
+	-webkit-transition: width 0.3s;
+	-moz-transition: width 0.3s;
+	-ms-transition: width 0.3s;
+	-o-transition: width 0.3s;
+}
+.final-processing .finish-btn{
+	padding: 6px 10px !important;
+	width: fit-content;
+	height: fit-content;
+	cursor: pointer;
+	background-color: var(--static-main-color);
+	border-color: var(--static-main-color);
+	color: var(--static-sec-btn-color);
+	transition: var(--main-transition);
+	-webkit-transition: var(--main-transition);
+	-moz-transition: var(--main-transition);
+	-ms-transition: var(--main-transition);
+	-o-transition: var(--main-transition);
+}
+.final-processing .finish-btn:hover{
+	background-color: transparent;
+	border-color: var(--static-main-color) ;
+	color: var(--static-main-color);
+}
+.my-articles .card{
+	max-width: 300px;
+}
+.aticle-menu{
+	font-size: var(--f-xl);
+	color: #fff;
+	top: 6px;
+	cursor: pointer;
+	inset-inline-end: 10px;
+	filter: drop-shadow(0px 0px 1px rgba(0, 0, 0, 0.25));
+	z-index: 100;
+}

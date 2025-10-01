@@ -1,0 +1,99 @@
+
+.job-hello{
+	background-color: var(--background-color);
+}
+.why-join {
+	background-color: var(--sec-background-color);
+}
+.why-join .divided-img img{
+	object-fit: cover;
+	width: 100%;
+	height: 100%;
+}
+.why-join .divided-img::before,
+.why-join .divided-img::after{
+	content: '';
+	position: absolute;
+	width: 35%;
+	height: 20%;
+	background-color: var(--sec-background-color);
+	inset-inline-start: 0px;
+	bottom: 0px;
+	z-index: 10;
+}
+.why-join .divided-img::after{
+	inset-inline-start: unset;
+	inset-inline-end: 0px;
+	bottom: unset;
+	top: 0px;
+}
+.why-join .divided-img span{
+	position: absolute;
+	width: 4%;
+	height: 100%;
+	background-color: var(--sec-background-color);
+	inset-inline-start: 31%;
+	top: 0px;
+	z-index: 10;
+}
+.why-join .divided-img span:last-of-type{
+	inset-inline-start: 65%;
+}
+.why-join > div .row > div:last-child > h3{
+	font-size: var(--f-xxl);
+	font-weight: 600;
+	color: var(--sec-btn-color);
+}
+.why-join > div .row > div:last-child > p{
+	font-size: var(--f-md);
+	color: var(--dark-gray-color);
+}
+.why-join > div .boxed-img-title-text{
+	padding: 25px 28px;
+	box-shadow: 0px 4px 50px 0px #1D20260D;
+}
+.why-join > div .boxed-img-title-text:first-of-type{
+	margin-bottom: 25px;
+}
+.why-join > div .boxed-img-title-text img{
+	height: fit-content;
+	min-width:30px ;
+	margin-inline-end: 12px;
+}
+.why-join > div .boxed-img-title-text h5{
+	font-size: var(--f-main);
+	font-weight: 500;
+	color: var(--sec-btn-color);
+}
+.why-join > div .boxed-img-title-text span{
+	font-size: var(--f-sm);
+	color: var(--gray-color);
+}
+/* -----parke-benefits */
+.parke-benefits{
+	background-color: var(--background-color);
+}
+.parke-benefits .parks .img-div{
+	width: 60px;
+	height: 60px;
+	background-color: var(--static-background-color);
+}
+.parke-benefits .parks h5{
+	font-size: var(--f-md);
+	color: var(--static-sec-btn-color);
+	font-weight: 500;
+}
+/* our-job-jobs */
+.our-job-jobs{
+	background-image:linear-gradient(var(--sec-background-color)) ;
+} 
+html.dark-mode .our-job-jobs{ 
+	background-image:linear-gradient(var(--sec-background-color), var(--background-color)) ;
+}
+
+/* bootstrap custom  */
+@media screen and (min-width: 576px) {
+	.main-container .row{
+		margin-inline: -12px !important;
+	}
+}

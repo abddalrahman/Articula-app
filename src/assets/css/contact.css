@@ -1,0 +1,132 @@
+.contact-hello{
+	background-color: var(--background-color);
+}
+.contact-hello,
+.job-hello{
+	border-bottom: 1px solid var(--border-color);
+}
+.contact-hello-content > div:first-child h2,
+.job-hello-content > div:first-child h2{
+	font-size: var(--f-xxl);
+	font-weight: 600;
+	color: var(--sec-btn-color);
+}
+.contact-hello-content > div:first-child p,
+.job-hello-content > div:first-child p{
+	font-size: var(--f-md);
+	color: var(--gray-color);
+}
+.contact-hello-content > div:last-child img,
+.job-hello-content > div:last-child img{
+	object-fit: cover ;
+	width: 100%;
+	height: 100%;
+}
+
+/* ___branches-content */
+.branches-content{
+	background-image: linear-gradient(var(--sec-background-color), var(--background-color));
+}
+.branches-content > div > h3,
+.branches-content > div > p{
+	text-align: center;
+	width: 85%;
+	max-width: 600px;
+	margin-inline: auto;
+	width: fit-content;
+}
+.branches-content > div > h3{
+	color: var(--sec-btn-color);
+	font-size: var(--f-xxl);
+	font-weight: 600;
+}
+.branches-content > div > p{
+	color: var(--dark-gray-color);
+	font-size: var(--f-md);
+	padding-inline: 1.5rem;
+	margin-bottom: 1.5rem !important;
+}
+.branche img{
+	object-fit: cover;
+	width: 100%;
+	height: 100%;
+}
+.branche{
+	height: 350px;
+	
+	@media screen and (max-width:576px) {
+		height: 250px;
+	}
+}
+.branche >div {
+	position: absolute;
+	bottom: 20px;
+	inset-inline-start: 20px;
+	width: calc(100% - 40px);
+	padding: 10px;
+	background-color: var(--background-color);
+}
+.branche >div > span{
+	font-size: var(--f-vsm);
+	font-weight: 500;
+	color: var(--main-btn-color);
+}
+.branche >div > h4{
+	font-size: var(--f-main);
+	font-weight: 500;
+	color: var(--sec-btn-color);
+}
+.branche >div > p{
+	font-size: var(--f-sm);
+	color: var(--gray-color);
+}
+
+/* ----send-cont-message */
+.send-cont-message{
+	background-color: var(--sec-background-color);
+}
+.send-content > div{
+	flex: 1;
+	min-width: 340px;
+}
+.send-content > div:first-child > p{
+	font-size: var(--f-lg);
+	color: var(--sec-btn-color);
+	width: 90%;
+}
+.send-content > div:first-child ul li:not(:last-child){
+	border-bottom: 1px solid var(--border-color);
+}
+.send-content > div:first-child ul li h5{
+	font-size: var(--f-main);
+	font-weight: 500;
+	color: var(--main-btn-color);
+	min-width: 180px;
+}
+.send-content > div:first-child ul li p,
+.send-content > div:first-child ul li div span{
+	font-size: var(--f-main);
+	color: var(--sec-btn-color);
+}
+
+.send-content > div:last-child{
+	background-color: var(--background-color);
+}
+.send-content > div:last-child >div >h4{
+	font-size: var(--f-lg);
+	color: var(--sec-btn-color);
+	font-weight: 400;
+}
+.send-content > div:last-child >div >p{
+	font-size: var(--f-main);
+	color: var(--footer-main-color);
+}
+.send-content > div:last-child form >div > div{
+	margin-bottom: 12px;
+}
+
+/* ---map */
+.map img{
+	width: 100%;
+	min-height: 150px;
+}

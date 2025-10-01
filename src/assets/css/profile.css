@@ -1,0 +1,34 @@
+.profile-content{
+	background-color: var(--sec-background-color);
+}
+.profile-content > div > div{
+  flex: 1;
+  min-width: 340px;
+}
+.profile-content .nav-container > div h2{
+  font-size: var(--f-xl);
+	color: var(--sec-btn-color);
+	font-weight: 600;
+}
+.profile-content .nav-container > div:first-child p{
+	font-size: var(--f-md);
+	color: var(--gray-color);
+	margin-bottom: 30px !important;
+	line-height: 1.6;
+}
+.profile-content .nav-container > div:first-child ul li{
+	background-color: var(--background-color);
+	color: var(--dark-gray-color);
+}
+.profile-content .nav-container > div:first-child ul li:not(:last-of-type){
+	border-bottom: 1px solid var(--border-color);
+}
+.profile-content .nav-container > div:first-child ul li > span{
+	width: 180px;
+	display: inline-block;
+	color: var(--main-btn-color);
+	font-weight: 500;
+}
+.profile-content form{
+	background-color: var(--background-color); 
+}
