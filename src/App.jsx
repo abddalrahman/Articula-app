@@ -129,7 +129,7 @@ function App() {
           <Navbar path={currentPath} />
           <main className='overflow-hidden'>
             <Routes>
-              <Route path="/" element={<Home/>} />
+              <Route path="/Articula-Project" element={<Home/>} />
               <Route path="/SignUp" element={<SignUp/>} />
               <Route path="/SignIn" element={<SignIn/>} />
               <Route path="/About" element={<About/>} />

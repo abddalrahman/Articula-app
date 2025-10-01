@@ -412,7 +412,7 @@ const Profile = () => {
 							sessionStorage.removeItem('login_obj_info')
 						}
 						changeLogin(false)
-						navigate('/')
+						navigate('/Articula-Project')
 					}
 				})
 				.catch(err => {

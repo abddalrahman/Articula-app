@@ -122,4 +122,4 @@ This project was developed as a capstone for the Frontend Development Course by 
 
 View the project live here:
 
-[Articula Project](https://abddalrahman.github.io/Articula-Project/)
+[Articula Project](https://abddalrahman.github.io/Articula-Project)

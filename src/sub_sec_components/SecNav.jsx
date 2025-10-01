@@ -86,13 +86,13 @@ const SecNav = ({sign}) => {
 			sessionStorage.removeItem('login_obj_info')
 		}
 		changeLogin(false)
-		navigate('/')
+		navigate('/Articula-Project')
 	}
 
 	return (
 		<nav className="sec-nav">
 			<div className="nav-container d-flex align-items-center justify-content-between py-2 py-md-4 gap-2">
-				<NavLink className="logo-img" to={'/'}>
+				<NavLink className="logo-img" to={'/Articula-Project'}>
 					<img src={color == 'dark' ? Logo2: Logo} alt="logo"/>
 				</NavLink>
 				<div className="d-flex align-items-center gap-3">
@@ -105,17 +105,17 @@ const SecNav = ({sign}) => {
 								?
 									<>
 										<NavLink className='quic-link' to={'/SignIn'}>Already have an account?</NavLink>
-										<MainBtn link_info={{link_classes:"main-btn", link_to:"SignIn", content:"Sign In"}}/>
+										<MainBtn link_info={{link_classes:"main-btn", link_to:"/SignIn", content:"Sign In"}}/>
 									</>
 								:
 									<>
 										<NavLink className='quic-link' to={'/SignUp'}>Don’t have account?</NavLink>
-										<MainBtn link_info={{link_classes:"main-btn light-o", link_to:"SignUp", content:"Create Account"}}/>
+										<MainBtn link_info={{link_classes:"main-btn light-o", link_to:"/SignUp", content:"Create Account"}}/>
 									</>
 							:
 							<>						
-								<MainBtn link_info={{link_classes:"main-btn light-o", link_to:"SignUp", content:"Create Account"}}/>
-								<MainBtn link_info={{link_classes:"main-btn", link_to:"SignIn", content:"Sign In"}}/>
+								<MainBtn link_info={{link_classes:"main-btn light-o", link_to:"/SignUp", content:"Create Account"}}/>
+								<MainBtn link_info={{link_classes:"main-btn", link_to:"/SignIn", content:"Sign In"}}/>
 							</>
 						:
 							userData.data && userData.data !=''

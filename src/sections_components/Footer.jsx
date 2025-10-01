@@ -5,13 +5,15 @@ import FooterFooter from '../sub_sec_components/FooterFooter'
 import AlterFooter from '../special_components/AlterFooter'
 
 const Footer = ({path}) => {
-	const some_paths = ["/About", "/Contact", "/Jobs", "/FAQs","/Articles" , "/Dashboard", "/Dashboard/UsersList", "/Dashboard/ArticlesList", "/Category", "/Tags"];
+	const some_paths = ["/About", "/Contact", "/Jobs", "/FAQs",
+		"/Articles" , "/Dashboard", "/Dashboard/UsersList",
+		"/Dashboard/ArticlesList", "/Category", "/Tags"];
 	const currect_path = (some_paths.includes(path)) || path.startsWith('/Details/') ? true : false
 	const isSign = (path == "/SignUp" || path == "/SignIn")? true : false
 	return (
 		<footer className='footer'>
 		{
-			path == '/'
+			path == '/Articula-Project'
 			?
 				<>
 					<FooterTop/>
