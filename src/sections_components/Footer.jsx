@@ -13,7 +13,7 @@ const Footer = ({path}) => {
 	return (
 		<footer className='footer'>
 		{
-			path == '/Articula-Project'
+			path == '/Articula-Project' || path == '/Articula-Project/'
 			?
 				<>
 					<FooterTop/>
