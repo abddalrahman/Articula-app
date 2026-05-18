@@ -86,13 +86,13 @@ const SecNav = ({sign}) => {
 			sessionStorage.removeItem('login_obj_info')
 		}
 		changeLogin(false)
-		navigate('/Articula-Project')
+		navigate('/')
 	}
 
 	return (
 		<nav className="sec-nav">
 			<div className="nav-container d-flex align-items-center justify-content-between py-2 py-md-4 gap-2">
-				<NavLink className="logo-img" to={'/Articula-Project'}>
+				<NavLink className="logo-img" to={'/'}>
 					<img src={color == 'dark' ? Logo2: Logo} alt="logo"/>
 				</NavLink>
 				<div className="d-flex align-items-center gap-3">

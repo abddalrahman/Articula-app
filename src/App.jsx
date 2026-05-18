@@ -119,7 +119,7 @@ function App() {
   // const {languageIs} = useContext(ChangeLangContext)
   return (
     <>
-      <BrowserRouter>
+      <BrowserRouter basename="/Articula-app">
         <ChangeLangContext.Provider value={{
           changeLang: handleLangChange, languageIs: lang, loginData: logInStatus, changeLogin: setLogInStatus, changeProfile: updateProfileData,
             setChangeProfile: setUpdateProfileData, color: colorMode, changeColor: setColorMode
@@ -129,7 +129,7 @@ function App() {
           <Navbar path={currentPath} />
           <main className='overflow-hidden'>
             <Routes>
-              <Route path="/Articula-Project" element={<Home/>} />
+              <Route path="/" element={<Home/>} />
               <Route path="/SignUp" element={<SignUp/>} />
               <Route path="/SignIn" element={<SignIn/>} />
               <Route path="/About" element={<About/>} />

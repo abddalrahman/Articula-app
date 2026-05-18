@@ -29,30 +29,25 @@ A full-featured single-page application built using React and supporting librari
 ## 🧠 Functional Highlights
 
 - **Article System**
-
   - Create, edit, and delete personal articles
   - View article details
   - Filter articles by category, tag, and live search
   - Paginated article list with control over items per page
 
 - **User Management**
-
   - View user list in dashboard
   - Live filtering across multiple fields (name, email, etc.)
   - Delete user accounts (with permission restrictions)
 
 - **Profile Features**
-
   - Edit profile information
   - Delete personal account from profile page
 
 - **Dashboard Insights**
-
   - View summary of users and articles
   - Admin tools for managing content
 
 - **FAQ System**
-
   - Browse frequently asked questions
   - Filter questions by category
 
@@ -122,4 +117,4 @@ This project was developed as a capstone for the Frontend Development Course by 
 
 View the project live here:
 
-[Articula Project](https://abddalrahman.github.io/Articula-Project)
+[Articula Project](https://abddalrahman.github.io/Articula-app)

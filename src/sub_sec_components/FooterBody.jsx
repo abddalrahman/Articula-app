@@ -31,7 +31,7 @@ const FooterBody = () => {
 								<LiLinks link_info={{
 									li_classes:"mb-2",
 									a_classes:"d-inline-block pb-1",
-									to_path:"/Articula-Project",
+									to_path:"/",
 									contene:"Development",
 									content_type:"text",
 									content_classes:"",
@@ -40,7 +40,7 @@ const FooterBody = () => {
 								<LiLinks link_info={{
 									li_classes:"mb-2",
 									a_classes:"d-inline-block pb-1",
-									to_path:"/Articula-Project",
+									to_path:"/",
 									contene:"Finance & Accounting",
 									content_type:"text",
 									content_classes:"",
@@ -49,7 +49,7 @@ const FooterBody = () => {
 								<LiLinks link_info={{
 									li_classes:"mb-2",
 									a_classes:"d-inline-block pb-1",
-									to_path:"/Articula-Project",
+									to_path:"/",
 									contene:"Design",
 									content_type:"text",
 									content_classes:"",
@@ -58,7 +58,7 @@ const FooterBody = () => {
 								<LiLinks link_info={{
 									li_classes:"",
 									a_classes:"d-inline-block pb-1",
-									to_path:"/Articula-Project",
+									to_path:"/",
 									contene:"Business",
 									content_type:"text",
 									content_classes:"",
@@ -115,7 +115,7 @@ const FooterBody = () => {
 								<LiLinks link_info={{
 									li_classes:"mb-2",
 									a_classes:"d-inline-block pb-1",
-									to_path:"/Articula-Project",
+									to_path:"/",
 									contene:"Help Center",
 									content_type:"text",
 									content_classes:"",
@@ -133,7 +133,7 @@ const FooterBody = () => {
 								<LiLinks link_info={{
 									li_classes:"mb-2",
 									a_classes:"d-inline-block pb-1",
-									to_path:"/Articula-Project",
+									to_path:"/",
 									contene:"Terms & Condition",
 									content_type:"text",
 									content_classes:"",
@@ -142,7 +142,7 @@ const FooterBody = () => {
 								<LiLinks link_info={{
 									li_classes:"",
 									a_classes:"d-inline-block pb-1",
-									to_path:"/Articula-Project",
+									to_path:"/",
 									contene:"Privacy Policy",
 									content_type:"text",
 									content_classes:"",

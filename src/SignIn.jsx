@@ -84,7 +84,7 @@ const SignIn = () => {
 						sessionStorage.setItem('login_obj_info', JSON.stringify(logInObj))
 					}
 					changeLogin(logInObj)
-					navigationTo('/Articula-Project')
+					navigationTo('/')
 				}
 			})
 			.catch(err => {

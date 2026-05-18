@@ -67,7 +67,7 @@ const MainNav = () => {
 					<LiLinks link_info={{
 						li_classes:"",
 						a_classes:"py-3 d-block",
-						to_path:"/Articula-Project",
+						to_path:"/",
 						contene:"Home"
 					}}/>
 					<LiLinks link_info={{
@@ -165,7 +165,7 @@ const MainNav = () => {
 						<LiLinks link_info={{
 							li_classes:"",
 							a_classes:"py-3 px-2 d-inline-block",
-							to_path:"/Articula-Project",
+							to_path:"/",
 							contene:"Home",
 							content_type:"text",
 							content_classes:""
