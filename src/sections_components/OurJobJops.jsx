@@ -10,7 +10,7 @@ const OurJobJops = () => {
 					<MainHead content="Our all open positions (04)"/>
 					<div className="jobs gap-3 d-flex flex-wrap pb-5">
 						<JobCard job_info={{
-							main_img:"/images/articles-3.png",
+							main_img:"/Articula-app/images/articles-3.png",
 							j_tag:"Featured",
 							salary:"300",
 							salary_in:"Month",
@@ -20,7 +20,7 @@ const OurJobJops = () => {
 							time:"Part Time"
 						}}/>
 						<JobCard job_info={{
-							main_img:"/images/articles-5.png",
+							main_img:"/Articula-app/images/articles-5.png",
 							j_tag:"Urgent",
 							salary:"400~900",
 							salary_in:"Month",
@@ -30,7 +30,7 @@ const OurJobJops = () => {
 							time:"Full Time"
 						}}/>
 						<JobCard job_info={{
-							main_img:"/images/articles-2.png",
+							main_img:"/Articula-app/images/articles-2.png",
 							j_tag:"Featured",
 							salary:"300~500",
 							salary_in:"Month",
@@ -40,7 +40,7 @@ const OurJobJops = () => {
 							time:"Part Time"
 						}}/>
 						<JobCard job_info={{
-							main_img:"/images/articles-8.png",
+							main_img:"/Articula-app/images/articles-8.png",
 							j_tag:"",
 							salary:"450",
 							salary_in:"Month",

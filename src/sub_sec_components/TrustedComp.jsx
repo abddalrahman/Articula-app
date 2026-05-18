@@ -16,14 +16,14 @@ const TrustedComp = ({text_info}) => {
 						}}/>
 					</div>
 					<div className='col-12 col-lg-8 col-xl-7 px-0 d-flex gap-2 gap-xxl-3 flex-wrap justify-content-start justify-content-lg-end'>
-						<CompanyLogo info={{img:"/images/comp-1.png", name:"company name", animat:"up"}}/>
-						<CompanyLogo info={{img:"/images/comp-2.png", name:"company name", animat:"down"}}/>
-						<CompanyLogo info={{img:"/images/comp-3.png", name:"company name", animat:"left"}}/>
-						<CompanyLogo info={{img:"/images/comp-4.png", name:"company name", animat:"right"}}/>
-						<CompanyLogo info={{img:"/images/comp-5.png", name:"company name", animat:"left"}}/>
-						<CompanyLogo info={{img:"/images/comp-6.png", name:"company name", animat:"down"}}/>
-						<CompanyLogo info={{img:"/images/comp-7.png", name:"company name", animat:"up"}}/>
-						<CompanyLogo info={{img:"/images/comp-8.png", name:"company name", animat:"right"}}/>
+						<CompanyLogo info={{img:"/Articula-app/images/comp-1.png", name:"company name", animat:"up"}}/>
+						<CompanyLogo info={{img:"/Articula-app/images/comp-2.png", name:"company name", animat:"down"}}/>
+						<CompanyLogo info={{img:"/Articula-app/images/comp-3.png", name:"company name", animat:"left"}}/>
+						<CompanyLogo info={{img:"/Articula-app/images/comp-4.png", name:"company name", animat:"right"}}/>
+						<CompanyLogo info={{img:"/Articula-app/images/comp-5.png", name:"company name", animat:"left"}}/>
+						<CompanyLogo info={{img:"/Articula-app/images/comp-6.png", name:"company name", animat:"down"}}/>
+						<CompanyLogo info={{img:"/Articula-app/images/comp-7.png", name:"company name", animat:"up"}}/>
+						<CompanyLogo info={{img:"/Articula-app/images/comp-8.png", name:"company name", animat:"right"}}/>
 					</div>
 				</div>
 			</div>

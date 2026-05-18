@@ -15,7 +15,7 @@ const Branches = () => {
 				<div className="branches row mx-0 mx-sm-1">
 					<div className='col-6 col-sm-6 col-lg-4 col-xl-3 mb-2 mb-sm-3 mb-xl-0 px-1 px-sm-2'>
 						<Branche branche_info={{
-							img:'/images/branches-1.jpg',
+							img:'/Articula-app/images/branches-1.jpg',
 							title:'Damascus, Syria',
 							text:'Lorem Ipsum doller Duis aute irure, No. 6548',
 							more_info:'mAIN BRANCHE'
@@ -23,7 +23,7 @@ const Branches = () => {
 					</div>
 					<div className='col-6 col-sm-6 col-lg-4 col-xl-3 mb-2 mb-sm-3 mb-xl-0 px-1 px-sm-2'>
 						<Branche branche_info={{
-							img:'/images/branches-2.jpg',
+							img:'/Articula-app/images/branches-2.jpg',
 							title:'Amman, Jordan',
 							text:'Lorem Ipsum doller Duis aute irure, No. 6548',
 							more_info:'mAIN BRANCHE'
@@ -31,7 +31,7 @@ const Branches = () => {
 					</div>
 					<div className='col-6 col-sm-6 col-lg-4 col-xl-3 mb-2 mb-sm-3 mb-xl-0 px-1 px-sm-2'>
 						<Branche branche_info={{
-							img:'/images/branches-3.jpg',
+							img:'/Articula-app/images/branches-3.jpg',
 							title:'Istanbul, Turkey',
 							text:'Lorem Ipsum doller Duis aute irure, No. 6548',
 							more_info:'mAIN BRANCHE'
@@ -39,7 +39,7 @@ const Branches = () => {
 					</div>
 					<div className='col-6 col-sm-6 col-lg-4 col-xl-3 mb-2 mb-sm-3 mb-xl-0 px-1 px-sm-2'>
 						<Branche branche_info={{
-							img:'/images/branches-4.jpg',
+							img:'/Articula-app/images/branches-4.jpg',
 							title:'Dubai. UAE',
 							text:'Lorem Ipsum doller Duis aute irure, No. 6548',
 							more_info:'mAIN BRANCHE'
